@@ -3,6 +3,7 @@
 ## Welcome to our hadoop mapreduce git lab  
 ## Alexis DA COSTA and Yasmine DAHAK  
  
+ link to our git repo : https://github.com/alexisdc94/hadoop-examples-mapreduce
  our class got a quote with the question reference.  
   
 # 1.8.1   
