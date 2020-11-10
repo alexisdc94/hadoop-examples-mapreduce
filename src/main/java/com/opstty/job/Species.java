@@ -10,6 +10,9 @@ import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
+//***************************************************
+//********************  1.8.2  **********************
+//***************************************************
 public class Species {
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();

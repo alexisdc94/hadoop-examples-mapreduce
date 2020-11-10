@@ -7,6 +7,9 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.4  **********************
+//***************************************************
 public class HighestTreMapper extends Mapper<Object, Text, Text, NullWritable> {
 
     public void map(Object key, Text value, Mapper.Context context)

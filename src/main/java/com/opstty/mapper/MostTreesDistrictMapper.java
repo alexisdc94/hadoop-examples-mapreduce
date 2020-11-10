@@ -8,6 +8,9 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.7  **********************
+//***************************************************
 public class MostTreesDistrictMapper extends Mapper<Object, Text, NullWritable, DistrictAndNumber> {
     private NullWritable lowKey = NullWritable.get();
 

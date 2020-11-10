@@ -6,6 +6,9 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.5  **********************
+//***************************************************
 public class HighTreeReducer extends Reducer<IntWritable, Text, IntWritable, Text> {
     private IntWritable result = new IntWritable(0);
 

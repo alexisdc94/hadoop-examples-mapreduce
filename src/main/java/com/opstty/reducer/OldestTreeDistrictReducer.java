@@ -8,6 +8,9 @@ import com.opstty.myClass.DistrictAndOld;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.6  **********************
+//***************************************************
 public class OldestTreeDistrictReducer extends Reducer<NullWritable, DistrictAndOld, NullWritable, DistrictAndOld> {
     private IntWritable result = new IntWritable(0);
 

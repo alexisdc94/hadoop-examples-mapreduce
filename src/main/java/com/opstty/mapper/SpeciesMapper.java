@@ -6,6 +6,9 @@ package com.opstty.mapper;
 
         import java.io.IOException;
 
+//***************************************************
+//********************  1.8.2  **********************
+//***************************************************
 public class SpeciesMapper extends Mapper<Object, Text, Text, NullWritable> {
 
     public void map(Object key, Text value, Mapper.Context context)

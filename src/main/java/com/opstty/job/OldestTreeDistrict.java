@@ -12,6 +12,9 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import com.opstty.myClass.DistrictAndOld;
 
+//***************************************************
+//********************  1.8.6  **********************
+//***************************************************
 public class OldestTreeDistrict {
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();

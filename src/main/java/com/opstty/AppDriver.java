@@ -6,7 +6,6 @@ import com.opstty.job.Species;
 import com.opstty.job.District;
 import com.opstty.job.WordCount;
 import com.opstty.job.HighTree;
-import com.opstty.job.OldestTree;
 import com.opstty.job.OldestTreeDistrict;
 import com.opstty.job.MostTreeDistrict;
 import org.apache.hadoop.util.ProgramDriver;
@@ -37,9 +36,6 @@ public class AppDriver {
 
             programDriver.addClass("highestTrees", HighTree.class,
                     "A map/reduce program that display the trees sorted by height in the input files.");
-
-            programDriver.addClass("oldestTree", OldestTree.class,
-                    "A map/reduce program that display the oldest trees and his district in the input files.");
 
             programDriver.addClass("oldestTreeD", OldestTreeDistrict.class,
                     "A map/reduce program that display the oldest tree and his district in the input files.");

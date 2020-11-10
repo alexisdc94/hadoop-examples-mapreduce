@@ -15,6 +15,9 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import com.opstty.myClass.DistrictAndNumber;
 import java.io.File;
 
+//***************************************************
+//********************  1.8.7  **********************
+//***************************************************
 public class MostTreeDistrict {
     public static void main(String[] args) throws Exception {
         Configuration conf = new Configuration();

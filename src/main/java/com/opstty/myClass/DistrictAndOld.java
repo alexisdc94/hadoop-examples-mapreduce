@@ -5,6 +5,9 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.6  **********************
+//***************************************************
 public class DistrictAndOld implements Writable {
 
     public Integer year;

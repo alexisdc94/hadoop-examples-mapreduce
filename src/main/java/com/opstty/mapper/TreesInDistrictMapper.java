@@ -7,6 +7,9 @@ import org.apache.hadoop.mapreduce.Mapper;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.7  **********************
+//***************************************************
 public class TreesInDistrictMapper extends Mapper<Object, Text, IntWritable, IntWritable> {
     private IntWritable one = new IntWritable(1);
 

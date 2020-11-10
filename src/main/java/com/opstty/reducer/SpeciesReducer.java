@@ -7,6 +7,9 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.2  **********************
+//***************************************************
 public class SpeciesReducer extends Reducer<Text, IntWritable, Text, NullWritable> {
 
     public void reduce(Text key, Iterable<IntWritable> values, Context context)

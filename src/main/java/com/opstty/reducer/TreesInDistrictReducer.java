@@ -6,6 +6,9 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.7  **********************
+//***************************************************
 public class TreesInDistrictReducer extends Reducer<IntWritable, IntWritable, IntWritable, IntWritable> {
     private IntWritable result = new IntWritable(0);
 

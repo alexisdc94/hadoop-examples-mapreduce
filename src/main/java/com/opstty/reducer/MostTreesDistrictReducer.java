@@ -8,6 +8,9 @@ import com.opstty.myClass.DistrictAndNumber;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.7  **********************
+//***************************************************
 public class MostTreesDistrictReducer extends Reducer<NullWritable, DistrictAndNumber, NullWritable, DistrictAndNumber> {
 
     public void reduce(NullWritable key, Iterable<DistrictAndNumber> values, Context context)

@@ -8,6 +8,9 @@ import com.opstty.myClass.DistrictAndOld;
 
 import java.io.IOException;
 
+//***************************************************
+//********************  1.8.6  **********************
+//***************************************************
 public class OldestTreeDistrictMapper extends Mapper<Object, Text, NullWritable, DistrictAndOld> {
     private NullWritable lowKeyVariable = NullWritable.get();
 
